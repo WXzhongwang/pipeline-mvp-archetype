@@ -38,7 +38,7 @@
 ![image](https://user-images.githubusercontent.com/27359059/147324128-2e1e85ff-354a-4add-841a-89f7e76b3c06.png)
 
 ## 鸣谢
-[wellchen](http://wellch4n.run/articles/maven-archetype-generate-scaffold.html)
+[wellch4n](http://wellch4n.run/articles/maven-archetype-generate-scaffold.html)
 
 
 
