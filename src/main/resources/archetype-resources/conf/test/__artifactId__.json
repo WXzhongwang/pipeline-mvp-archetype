@@ -1,0 +1,23 @@
+{
+  "app": {
+    "name": "${artifactId}",
+    "emergency": "dick"
+  },
+  "sls": {
+    "enable": true,
+    "loggerKeys": [
+      "count"
+    ]
+  },
+  "monitor": {
+    "enable": "true",
+    "dingTalkUrl": "",
+    "dingTalkSecret": "",
+    "alertName": "${artifactId}告警"
+  },
+  "process": {
+    "sources": [],
+    "channels": [],
+    "sinks": []
+  }
+}
