@@ -10,16 +10,16 @@
 先down下来代码后，修改私服地址，然后通过maven deploy即可快速发布到私服。
 
 ```
-  <distributionManagement>
-      <repository>
-          <id>private-releases</id>
-          <url>https://packages.aliyun.com/maven/repository/xxxx-release-hUTFFV</url>
-      </repository>
-      <snapshotRepository>
-          <id>private-snapshots</id>
-          <url>https://packages.aliyun.com/maven/repository/xxxx-snapshot-rIOUcz</url>
-      </snapshotRepository>
-  </distributionManagement>
+<distributionManagement>
+    <repository>
+        <id>private-releases</id>
+        <url>https://packages.aliyun.com/maven/repository/2470424-release-mtB7Nz</url>
+    </repository>
+    <snapshotRepository>
+        <id>private-snapshots</id>
+        <url>https://packages.aliyun.com/maven/repository/2470424-snapshot-M3PWj7</url>
+    </snapshotRepository>
+</distributionManagement>
 ```
 ## 创建archetype前置
 需把pipeline-mvp的相关依赖同样发布到统一的私服地址,这里我是把所有的package都托管到了云效package上了[云效package](https://packages.aliyun.com/maven)

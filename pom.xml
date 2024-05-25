@@ -57,39 +57,14 @@
         </pluginManagement>
     </build>
 
-    <repositories>
-        <repository>
-            <id>private-release</id>
-            <name>release</name>
-            <url>https://packages.aliyun.com/maven/repository/2170609-snapshot-rIOUcz</url>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-        </repository>
-        <repository>
-            <id>private-snapshot</id>
-            <name>snapshot</name>
-            <url>https://packages.aliyun.com/maven/repository/2170609-snapshot-rIOUcz</url>
-            <releases>
-                <enabled>false</enabled>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-        </repository>
-    </repositories>
-
     <distributionManagement>
         <repository>
             <id>private-releases</id>
-            <url>https://packages.aliyun.com/maven/repository/2170609-release-hUTFFV</url>
+            <url>https://packages.aliyun.com/maven/repository/2470424-release-mtB7Nz</url>
         </repository>
         <snapshotRepository>
             <id>private-snapshots</id>
-            <url>https://packages.aliyun.com/maven/repository/2170609-snapshot-rIOUcz</url>
+            <url>https://packages.aliyun.com/maven/repository/2470424-snapshot-M3PWj7</url>
         </snapshotRepository>
     </distributionManagement>
 </project>
